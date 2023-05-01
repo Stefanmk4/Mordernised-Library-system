@@ -48,9 +48,9 @@ public:
     vector<BorrowBook> allBorrowedBooks;
     void initBooksList() {
         Book b1 = Book(0, "The Alchemist", "Paulo Coelho", "Novel", true);
-        Book b2 = Book(1, "Da Vinci Code", "Brown, Dan", "Crime", true);
+        Book b2 = Book(1, "Diary Of a Wimpy Kid", "Jeff Kinney", "Fiction & Comedy", true);
         Book b3 = Book(2, "Harry Potter", "J.K. Rowling", "Fiction", true);
-        Book b4 = Book(3, "New Moon", "Stephenie", "Fiction", true);
+        Book b4 = Book(3, "Animal Farm ", "George Orwell", "Animal Fable", true);
         allBooks.push_back(b1);
         allBooks.push_back(b2);
         allBooks.push_back(b3);
